@@ -41,12 +41,16 @@ body {
   text-align: center;
 }
 
+.hero-wrap {
+  position: relative;
+}
+
 .top-logo {
-  display: block;
-  width: 140px;
-  max-width: 40vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 120px;
   height: auto;
-  margin: 0 auto 14px;
 }
 
 .eyebrow {
