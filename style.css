@@ -236,3 +236,17 @@ a {
 #people .grid {
   grid-template-columns: 1fr;
 }
+
+.stacked-grid {
+  grid-template-columns: 1fr;
+}
+
+#people .mini-card p + p,
+#openings .mini-card p + p {
+  margin-top: 8px;
+}
+
+#people .mini-card strong,
+#openings .mini-card strong {
+  color: var(--accent);
+}
