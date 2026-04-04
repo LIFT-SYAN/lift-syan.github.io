@@ -1,14 +1,14 @@
 :root {
-  --bg: #f7f3e8;
-  --bg-top: #efe2b4;
+  --bg: #f7f4eb;
+  --bg-top: #e7c55a;
   --card: #ffffff;
   --card-soft: #fffaf0;
   --text: #111111;
-  --muted: #5b5345;
-  --line: #e3d8b5;
+  --muted: #4f493c;
+  --line: #e2d29d;
   --accent: #000000;
-  --accent-2: #b79a57;
-  --accent-3: #d6b96b;
+  --accent-2: #b58a00;
+  --accent-3: #ffc904;
   --shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
   --radius: 18px;
   --radius-sm: 14px;
@@ -27,7 +27,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   color: var(--text);
-  background: linear-gradient(180deg, var(--bg-top) 0px, var(--bg) 260px, var(--bg) 100%);
+  background: linear-gradient(180deg, var(--bg-top) 0px, var(--bg) 240px, var(--bg) 100%);
   line-height: 1.65;
 }
 
@@ -49,7 +49,8 @@ body {
 .top-logo {
   display: block;
   position: static;
-  width: min(680px, 65vw);
+  width: min(560px, 72vw);
+  max-width: 100%;
   height: auto;
   margin: 0 auto 18px;
 }
@@ -100,8 +101,8 @@ body {
 
 .nav a:hover,
 .nav a:focus {
-  background: var(--accent-2);
-  border-color: var(--accent-2);
+  background: var(--accent-3);
+  border-color: var(--accent-3);
   color: #111111;
   transform: translateY(-1px);
 }
@@ -223,18 +224,6 @@ a {
   color: var(--accent);
   font-size: 1.35rem;
   line-height: 1.2;
-}
-
-#people .mini-card p + p {
-  margin-top: 8px;
-}
-
-#people .mini-card strong {
-  color: var(--accent);
-}
-
-#people .grid {
-  grid-template-columns: 1fr;
 }
 
 .stacked-grid {
