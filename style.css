@@ -231,3 +231,7 @@ a {
 #people .mini-card strong {
   color: var(--accent);
 }
+
+#people .grid {
+  grid-template-columns: 1fr;
+}
