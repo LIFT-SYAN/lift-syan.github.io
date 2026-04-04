@@ -48,10 +48,10 @@ body {
 
 .top-logo {
   display: block;
-  width: min(300px, 55vw);
+  position: static;
+  width: min(380px, 65vw);
   height: auto;
   margin: 0 auto 18px;
-  position: static;
 }
 
 .eyebrow {
