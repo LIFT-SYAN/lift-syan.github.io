@@ -47,11 +47,11 @@ body {
 }
 
 .top-logo {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 120px;
+  display: block;
+  width: min(300px, 55vw);
   height: auto;
+  margin: 0 auto 18px;
+  position: static;
 }
 
 .eyebrow {
