@@ -43,7 +43,7 @@ body {
 
 .hero-wrap {
   position: relative;
-  padding-right: 140px;
+  padding-right: 0;
 }
 
 .top-logo {
