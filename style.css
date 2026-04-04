@@ -194,3 +194,27 @@ a {
     padding-top: 64px;
   }
 }
+
+.person-role {
+  margin: 0 0 8px;
+  color: var(--accent-2);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.person-name {
+  margin: 0 0 14px;
+  color: var(--accent);
+  font-size: 1.35rem;
+  line-height: 1.2;
+}
+
+#people .mini-card p + p {
+  margin-top: 8px;
+}
+
+#people .mini-card strong {
+  color: var(--accent);
+}
