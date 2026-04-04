@@ -41,6 +41,14 @@ body {
   text-align: center;
 }
 
+.top-logo {
+  display: block;
+  width: 140px;
+  max-width: 40vw;
+  height: auto;
+  margin: 0 auto 14px;
+}
+
 .eyebrow {
   margin: 0 0 10px;
   color: var(--accent-2);
@@ -52,6 +60,7 @@ body {
 
 .hero h1 {
   margin: 0;
+  margin-top: 16px;
   color: var(--accent);
   font-size: clamp(2.4rem, 8vw, 4.4rem);
   line-height: 1.02;
