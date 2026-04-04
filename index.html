@@ -8,45 +8,115 @@
 </head>
 <body>
   <header class="hero">
-    <div class="container">
+    <div class="wrap">
+      <p class="eyebrow">University of Central Florida</p>
       <h1>LIFT Lab</h1>
-      <p>Lift, Icing, Fluids, and Thermal Sciences Lab</p>
-      <nav>
+      <p class="subtitle">
+        Lift, Icing, Fluids, and Thermal Sciences Lab
+      </p>
+
+      <nav class="nav">
         <a href="#about">About</a>
         <a href="#research">Research</a>
+        <a href="#videos">Videos</a>
         <a href="#people">People</a>
         <a href="#news">News</a>
       </nav>
     </div>
   </header>
 
-  <main class="container">
-    <section id="about">
+  <main class="wrap">
+    <section id="about" class="card">
       <h2>About</h2>
       <p>
         The LIFT Lab conducts research in rotorcraft aerodynamics, aircraft icing,
         advanced aerial mobility, and high-performance computational fluid dynamics.
+        Our work combines experiments, modeling, and computation for challenging
+        aerospace flow problems.
       </p>
     </section>
 
-    <section id="research">
+    <section id="research" class="card">
       <h2>Research</h2>
-      <ul>
-        <li>Rotorcraft aerodynamics and aeroacoustics</li>
-        <li>Aircraft and engine icing</li>
-        <li>Advanced Aerial Mobility (AAM)</li>
-        <li>GPU-accelerated CFD and Lattice Boltzmann methods</li>
-      </ul>
+      <div class="grid">
+        <div class="mini-card">
+          <h3>Rotorcraft Aerodynamics</h3>
+          <p>Rotor performance, wake interaction, downwash, and aeroacoustics.</p>
+        </div>
+        <div class="mini-card">
+          <h3>Icing Physics</h3>
+          <p>Engine and airframe icing, thermal protection, and adverse weather safety.</p>
+        </div>
+        <div class="mini-card">
+          <h3>AAM Safety</h3>
+          <p>Advanced Aerial Mobility performance, operations, and certification-relevant studies.</p>
+        </div>
+        <div class="mini-card">
+          <h3>GPU CFD</h3>
+          <p>Lattice Boltzmann methods and accelerated simulation for complex flow environments.</p>
+        </div>
+      </div>
     </section>
 
-    <section id="people">
+    <section id="videos" class="card">
+      <h2>Research Videos</h2>
+      <div class="grid">
+        <div class="video-card">
+          <h3>Rotor Test Campaign</h3>
+          <div class="video-frame">
+            <iframe
+              src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+              title="Rotor Test Campaign"
+              allowfullscreen>
+            </iframe>
+          </div>
+          <p>Short description of the experiment, vehicle, or test objective.</p>
+        </div>
+
+        <div class="video-card">
+          <h3>Urban Flow Simulation</h3>
+          <div class="video-frame">
+            <iframe
+              src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2"
+              title="Urban Flow Simulation"
+              allowfullscreen>
+            </iframe>
+          </div>
+          <p>GPU-accelerated flow simulation around buildings and infrastructure.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="people" class="card">
       <h2>People</h2>
-      <p>Add PI, students, postdocs, and collaborators here.</p>
+      <div class="grid">
+        <div class="mini-card">
+          <h3>Director</h3>
+          <p>Dr. Sihong Yan</p>
+        </div>
+        <div class="mini-card">
+          <h3>Students</h3>
+          <p>Add PhD, MS, and undergraduate researchers here.</p>
+        </div>
+        <div class="mini-card">
+          <h3>Collaborators</h3>
+          <p>Add research collaborators and partner institutions here.</p>
+        </div>
+      </div>
     </section>
 
-    <section id="news">
+    <section id="news" class="card">
       <h2>News</h2>
-      <p>Add lab updates, awards, papers, and announcements here.</p>
+      <div class="news-list">
+        <div class="news-item">
+          <span class="news-date">April 2026</span>
+          <p>Website launched for the LIFT Lab.</p>
+        </div>
+        <div class="news-item">
+          <span class="news-date">April 2026</span>
+          <p>Add papers, awards, conference presentations, and student updates here.</p>
+        </div>
+      </div>
     </section>
   </main>
 </body>
