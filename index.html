@@ -91,23 +91,24 @@
     <section id="highlights" class="card">
        <h2>Highlights</h2>
 
-<article id="evtol-landing" class="video-card" style="margin-top: 18px;">
-  <h3>Rotor Wakes and Ground Interaction During eVTOL Landing</h3>
-  <p>GPU-accelerated lattice Boltzmann simulation of a six-rotor aircraft near the ground, showing rotor-wake interaction, downwash and outwash, and pressure on the ground and eight surrounding human models.</p>
-  <figure style="margin: 18px auto 0; max-width: 900px;">
-    <video id="video-evtol-landing" controls autoplay loop muted playsinline preload="metadata"
-           poster="pic/evtol-landing-video-poster-ucf.png" width="1280" height="720"
-           aria-label="Close view of six-rotor landing wakes and surface pressure with a UCF background watermark"
-           style="display: block; width: 100%; height: auto; border-radius: 12px; background: #fff;">
-      <source src="videos/evtol-landing-close-q40000-ucf.mp4" type="video/mp4">
-      <a href="videos/evtol-landing-close-q40000-ucf.mp4">Watch the close-view simulation video.</a>
-    </video>
-    <figcaption style="margin-top: 10px; font-size: 0.95rem;">
-      Close view, <i>t</i> = 1.407&ndash;2.345 s, shown at half speed. Blue surfaces indicate
-      Q = 40,000 s<sup>&minus;2</sup>; the color scale shows computed gauge pressure in Pa.
-    </figcaption>
-  </figure>
-  <p>Actuator-line rotor forcing with adaptive mesh refinement: 295.7 million cells in a
+<article id="evtol-landing" class="video-card" style="margin-top: 18px;">  
+<h3>Rotor Wakes and Ground Interaction During eVTOL Landing</h3>  
+<p>GPU-accelerated lattice Boltzmann simulation of a six-rotor aircraft near the ground, showing rotor-wake interaction, downwash and outwash, and pressure on the ground and eight surrounding human models.</p>  
+<figure style="margin: 18px auto 0; max-width: 900px;">    
+<video id="video-evtol-landing" controls autoplay loop muted playsinline preload="metadata"           
+poster="pic/evtol-landing-video-poster-ucf-13frames.png" width="1280" height="720"           
+aria-label="Close view of six-rotor landing wakes and surface pressure with a UCF background watermark"           
+style="display: block; width: 100%; height: auto; border-radius: 12px; background: #fff;">      
+<source src="videos/evtol-landing-close-q40000-ucf-13frames.mp4" type="video/mp4">      
+<a href="videos/evtol-landing-close-q40000-ucf-13frames.mp4">Watch the close-view simulation video.</a>    
+</video>    
+<figcaption style="margin-top: 10px; font-size: 0.95rem;">
+      Close view, <i>t</i> = 1.407&ndash;7.032 s: all 13 saved flow fields after 1 s, shown at half speed. Blue surfaces indicate
+      Q = 40,000 s<sup>&minus;2</sup>; the color scale shows computed gauge pressure in Pa.    
+</figcaption>
+<p style="margin-top: 10px;"><a href="videos/evtol-landing-close-q40000-original-13frames.mp4" target="_blank" rel="noopener">Original close-view video (without watermark)</a></p>  
+</figure>  
+<p>Actuator-line rotor forcing with adaptive mesh refinement: 295.7 million cells in a
      50 &times; 50 &times; 50 m domain, with a finest cell spacing of 0.0244 m and a 2.5 m/s freestream.</p>
 </article>
 
